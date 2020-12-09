@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>我是你爹</title>
+    </head>
+   <body>
+       <style>
+           form{
+               margin: 0 auto;
+               width: 300px;
+               background: cyan;
+           }
+           .conent label{
+               margin: 10px 0px 0px 10px;
+           }
+           .input:focus{
+      background-color: rgb(208, 145, 143);
+           }
+        button{
+            margin: 10px 30px                ;
+           
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color:red;
+            cursor: pointer;
+        }
+       
+       </style>
+    <form action="https://fandeyao11.github.io/"margin="get">
+        <fieldset>
+            <legend>个人健康状态</legend>
+         <ul class="conent">
+                <p>学号
+                    <label for=""><input type="text"class="input" placeholder="学号"></label>
+                </p>
+                <p>姓名
+                    <label for=""><input type="text" placeholder="姓名"class="input"></label>
+                </p>
+                <p>体温
+                    <label for=""><input type="number" step="0.1"value="36.4"class="input"></label>
+                </p>
+                          
+         </ul>
+        
+            <h5>选择自己的身体状况(可多选)</h5>
+            <label for=""><input type="checkbox" checked="checked">无症状</label>
+            <label for=""><input type="checkbox" >发热</label>
+            <label for=""><input type="checkbox" >咳嗽</label>
+            <label for=""><input type="checkbox" >无力</label>         
+             <button type="submit">提交</button>
+             <button type="reset">重置</button>
+        </fieldset>
+     
+    </form>   
+
+   </body>  
+
+
+
+
+</html>
